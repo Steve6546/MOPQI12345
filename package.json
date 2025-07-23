@@ -1,0 +1,40 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node agents/cli/runAgent.ts",
+    "lint": "eslint . --ext .ts,.js",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steve6546/MOPQI12345.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Steve6546/MOPQI12345/issues"
+  },
+  "homepage": "https://github.com/Steve6546/MOPQI12345#readme",
+  "dependencies": {
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.1.0",
+    "commander": "^14.0.0",
+    "inquirer": "^12.8.2",
+    "lodash": "^4.17.21",
+    "lowdb": "^7.0.1",
+    "simple-git": "^3.28.0",
+    "ts-morph": "^26.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "yargs": "^18.0.0"
+  }
+}
